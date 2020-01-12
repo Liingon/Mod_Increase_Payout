@@ -14,7 +14,7 @@ def loopFiles( path ):
         if file.startswith("Diagnoses") and file.endswith(".xml"):
             parseFile(os.path.join(path, file))
 
-# Find all instances of GameDBMedicalCondition, increase InsurancePayment and remove everything else, then print to output file
+# Find all instances of GameDBMedicalCondition, increase InsurancePayment, then print to output file
 def parseFile( file ):
     filename = os.path.basename(file)
     tree = ET.parse( file )
@@ -24,7 +24,7 @@ def parseFile( file ):
         InsurancePayment = elem.find('InsurancePayment')
         InsurancePayment.text = modify(InsurancePayment.text)
     
-    tree.write("Database/Mod" + filename)
+    tree.write("mod_content/Database/Mod" + filename)
 
 # Modify a value
 def modify( value ):
