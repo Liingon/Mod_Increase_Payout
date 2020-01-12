@@ -1,0 +1,11 @@
+"workshopitem"
+{
+	"appid"				"868360"
+	"publishedfileid"	"1960942866"
+	"contentfolder"		"C:\code\Mod_Increase_Payout\mod_content\"
+	"previewfile"		"C:\code\Mod_Increase_Payout\Preview.png"
+	"visibility"		"0"
+	"title"				"Increase Payout"
+	"description"		"Increases the payout from insurance companies for all diagnoses by 50%."
+	"changenote"		"Fix internal mod name and id"
+}
