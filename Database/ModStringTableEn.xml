@@ -1,0 +1,21 @@
+﻿<Database>
+    <GameDBStringTable ID="Increase_Payouts">
+    
+        <LanguageCode>en</LanguageCode>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Liingon</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+		    <GameDBLocalizedString>    
+				<LocID>Increase_Payouts</LocID>              
+				<Text>Increase Payouts</Text>  
+			</GameDBLocalizedString>
+		</LocalizedStrings>
+
+
+    </GameDBStringTable>
+
+</Database>
